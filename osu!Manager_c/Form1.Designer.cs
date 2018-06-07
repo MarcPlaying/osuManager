@@ -309,7 +309,6 @@
             this.panel9.Size = new System.Drawing.Size(204, 34);
             this.panel9.TabIndex = 12;
             this.panel9.Click += new System.EventHandler(this.panel9_Click);
-            this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint);
             // 
             // label16
             // 
@@ -481,7 +480,6 @@
             this.panel10.Size = new System.Drawing.Size(678, 469);
             this.panel10.TabIndex = 11;
             this.panel10.Visible = false;
-            this.panel10.Paint += new System.Windows.Forms.PaintEventHandler(this.panel10_Paint);
             // 
             // panel18
             // 
@@ -734,7 +732,6 @@
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 6;
             this.pictureBox14.TabStop = false;
-            this.pictureBox14.Click += new System.EventHandler(this.pictureBox14_Click);
             // 
             // label18
             // 

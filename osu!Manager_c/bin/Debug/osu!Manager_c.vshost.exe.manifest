@@ -114,14 +114,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="osu!Manager_c.exe" size="964016">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="osu!Manager_c.exe" size="959920">
       <assemblyIdentity name="osu!Manager_c" version="1.1.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Qzr7nzAd4axlOHuabrMkK2e6ibhgwk7uQGf3o/URnhE=</dsig:DigestValue>
+        <dsig:DigestValue>IHDAb0j//m+9gRx8XAyjd/OJ03vnD6uYOk57f6YSWRM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

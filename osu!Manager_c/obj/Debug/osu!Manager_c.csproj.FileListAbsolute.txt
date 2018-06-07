@@ -15,13 +15,10 @@ C:\Users\marc-\Desktop\osu mgr\osuManager\osu!Manager_c\bin\Debug\Geckofx-Core.p
 C:\Users\marc-\Desktop\osu mgr\osuManager\osu!Manager_c\bin\Debug\Geckofx-Winforms.pdb
 C:\Users\marc-\Desktop\osu mgr\osuManager\osu!Manager_c\obj\Debug\osu!Manager_c.csprojResolveAssemblyReference.cache
 C:\Users\marc-\Desktop\osu mgr\osuManager\osu!Manager_c\obj\Debug\osu_Manager_c.Anotherosupath.resources
-C:\Users\marc-\Desktop\osu mgr\osuManager\osu!Manager_c\obj\Debug\osu_Manager_c.downloader.resources
 C:\Users\marc-\Desktop\osu mgr\osuManager\osu!Manager_c\obj\Debug\osu_Manager_c.errornet.resources
 C:\Users\marc-\Desktop\osu mgr\osuManager\osu!Manager_c\obj\Debug\osu_Manager_c.Form1.resources
-C:\Users\marc-\Desktop\osu mgr\osuManager\osu!Manager_c\obj\Debug\osu_Manager_c.Formrunner.resources
 C:\Users\marc-\Desktop\osu mgr\osuManager\osu!Manager_c\obj\Debug\osu_Manager_c.Properties.Resources.resources
 C:\Users\marc-\Desktop\osu mgr\osuManager\osu!Manager_c\obj\Debug\osu_Manager_c.ResetUser.resources
-C:\Users\marc-\Desktop\osu mgr\osuManager\osu!Manager_c\obj\Debug\osu_Manager_c.Restart.resources
 C:\Users\marc-\Desktop\osu mgr\osuManager\osu!Manager_c\obj\Debug\osu_Manager_c.Skin_Downloader.resources
 C:\Users\marc-\Desktop\osu mgr\osuManager\osu!Manager_c\obj\Debug\osu_Manager_c.TourneyManager.resources
 C:\Users\marc-\Desktop\osu mgr\osuManager\osu!Manager_c\obj\Debug\osu_Manager_c.User.resources

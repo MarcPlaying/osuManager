@@ -28,20 +28,6 @@ namespace osu_Manager_c
             this.FormBorderStyle = FormBorderStyle.None;
             System.IO.Directory.CreateDirectory(Config.mainDir);
             bool vip = false;
-            //try
-            //{
-            //   using (var client = new WebClient())
-            //            {
-            //
-            // string a = client.DownloadString("https://marc.enjuu.click/manager/vip/" + UserName + ".txt");
-            // vip = true;
-            //    }
-            //
-            // }
-            //  catch
-            //  {
-            // vip = false;
-            //    }
             if (vip == true)
             {
                 pictureBox28.Visible = true;
@@ -55,7 +41,6 @@ namespace osu_Manager_c
                 String newestver = "";
                 try
                 {
-                    //NEWESTVER
                     string getver = client.DownloadString(Config.localserv + "\ver\ver.txt");
                     newestver = client.DownloadString(getver);
                 }
@@ -109,8 +94,7 @@ namespace osu_Manager_c
                 using (var client = new WebClient())
                 {
                     if(Properties.Settings.Default.osuUserID == "0")
-                    {
-                        
+                    {   
                         soos = rand.Next(1, 1000);
                         client.DownloadFile("https://a.ppy.sh/" + Properties.Settings.Default.osuUserID, Config.mainDir +"/pb" + soos + ".png");
                         pictureBox10.Image = Image.FromFile(Config.mainDir + "/pb" + soos + ".png");
@@ -146,12 +130,7 @@ namespace osu_Manager_c
                     {
                         client.DownloadFile("https://a.ppy.sh/" + Properties.Settings.Default.osuUserID, Config.mainDir + "/pb" + soos + ".png");
                     }
-                    catch
-                    {
-
-                    }
-                    
-                    
+                    catch{}
                 }
                 try
                 {
@@ -170,8 +149,7 @@ namespace osu_Manager_c
             }
             else
             {
-               
-                label14.Text = "Not Logged In!";
+                label14.Text = "Currently not Logged In!";
                 label24.Text = null;
                 using (var client = new WebClient())
                 {
@@ -295,21 +273,11 @@ namespace osu_Manager_c
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-
-
-
-
-           
-
             using (WebClient wc = new WebClient())
             {
                 String UserName = Environment.UserName;
                 Properties.Settings.Default.loggedin = true;
                 Properties.Settings.Default.Save();
-                
-
-                
-
                 if (Properties.Settings.Default.loggedin == true)
                 {
                     
@@ -371,11 +339,6 @@ namespace osu_Manager_c
             }
         }
 
-        private void panel9_Paint(object sender, PaintEventArgs e)
-        {
-            
-        }
-
         private void panel9_Click(object sender, EventArgs e)
         {
             MenuGen("Settings");
@@ -420,16 +383,6 @@ namespace osu_Manager_c
         {
             Form user = new User(Properties.Settings.Default.osuUserName, Properties.Settings.Default.osuUserID);
             user.Show();
-        }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel10_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void pictureBox9_Click_1(object sender, EventArgs e)
@@ -497,11 +450,6 @@ namespace osu_Manager_c
                 Properties.Settings.Default.Save();
                 Application.Exit();
             }
-
-        }
-
-        private void pictureBox14_Click(object sender, EventArgs e)
-        {
 
         }
 
